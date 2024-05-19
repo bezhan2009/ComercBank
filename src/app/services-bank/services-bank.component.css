@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+}
+img  {
+  width: 140px;
+  aspect-ratio: auto 140 / 140;
+  height: 140px;
+}
+.services  {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 3fr 2fr;
+  margin: 1.5rem auto;
+  width: 95%;
+}
+
+.services-two  {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 2fr 3fr;
+  margin: 1.5rem auto;
+  width: 95%;
+}
+
+.service  {
+  background: linear-gradient(67.31deg, #f5f7fa .51%, #c3cfe2 97.39%);
+  padding: 2rem;
+  border: 1px solid #dedfe2;
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  min-height: 250px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 0;
+  transition: all 3s ease-in-out;
+}
+
+.service::before,
+.service::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Начальный градиент в ::before */
+.service::before {
+  background: linear-gradient(262.6deg, #c3cfe2 -11.07%, #f5f7fa 90.58%);
+  opacity: 1; /* Начальная непрозрачность */
+}
+
+/* Конечный градиент в ::after */
+.service::after {
+  background: linear-gradient(262.6deg, #f5f7fa -11.07%, #c3cfe2 90.58%);
+  opacity: 0; /* Начальная непрозрачность */
+}
+
+/* Эффект при наведении */
+.service:hover::before {
+  opacity: 0; /* Скрыть начальный градиент */
+}
+
+.service:hover::after {
+  opacity: 1; /* Показать конечный градиент */
+}
+
+
+
+/* Для экранов шириной до 600px (типично для мобильных устройств) */
+@media screen and (max-width: 790px) {
+  .services {
+    grid-template-columns: 1fr; /* Один блок в одну строку */
+  }
+
+  .service {
+    margin-bottom: 1.5rem; /* Добавляем отступ между блоками */
+  }
+}
+
+.service-title {
+  font-size: 2rem;
+  line-height: 40px;
+  color: #202c3c;
+  margin-bottom: 1rem;
+}
+
+.service-description {
+  font-size: 1.125rem;
+  line-height: 24px;
+  color: #707884;
+  margin-bottom: 1rem;
+}
+
+div {
+  display: block;
+}
