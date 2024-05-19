@@ -1,0 +1,228 @@
+
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+@media (max-width: 1200px)
+{
+  .landing-container[_ngcontent-ng-c486779217] {
+    max-width: 100%;
+    padding: 0 1.5rem;
+  }
+  .landing-faqs[_ngcontent-ng-c486779217] {
+    background-color: #fafafa;
+    max-width: 100%;
+    margin: 0;
+  }
+  .landing-container[_ngcontent-ng-c486779217] {
+    max-width: 1200px;
+    margin: 0 auto 6rem;
+  }
+  .landing-faqs-holder[_ngcontent-ng-c486779217] {
+    max-width: 1200px;
+    padding: 6rem 0;
+    margin: 0 auto;
+  }}
+
+
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6ebf3;
+  height: 100%;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+
+.landing-title[_ngcontent-ng-c486779217] {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 56px;
+  color: #202c3c;
+  margin-bottom: 2rem;
+}
+
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.accordion[_ngcontent-ng-c1093903176] {
+  border-bottom: 1px solid #dedfe2;
+}
+
+.landing-faqs-holder[_ngcontent-ng-c486779217] {
+  max-width: 1200px;
+  padding: 6rem 0;
+  margin: 0 auto;
+}
+
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.accordion-head[_ngcontent-ng-c1093903176] .title[_ngcontent-ng-c1093903176] {
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #202c3c;
+  margin: 0;
+}
+
+.accordion-head[_ngcontent-ng-c1093903176] svg-icon[_ngcontent-ng-c1093903176] {
+  line-height: 0;
+}
+
+.accordion-head[_ngcontent-ng-c1093903176] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+}
+
+.accordion-head[_ngcontent-ng-c1093903176] .title[_ngcontent-ng-c1093903176] {
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #202c3c;
+  margin: 0;
+}
+
+.accordion-head[_ngcontent-ng-c1093903176] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px)
+{.landing-faqs-holder[_ngcontent-ng-c486779217] {
+  padding-top: 1rem;
+}}
+
+.landing-faqs-holder[_ngcontent-ng-c486779217] {
+  max-width: 1200px;
+  padding: 6rem 0;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px)
+{.landing-title[_ngcontent-ng-c486779217] {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 24px;
+}}
+
+.landing-title[_ngcontent-ng-c486779217] {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 56px;
+  color: #202c3c;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.accordion[_ngcontent-ng-c1093903176] {
+  border-bottom: 1px solid #dedfe2;
+}
+
+.accordion.active[_ngcontent-ng-c1093903176], .accordion.active[_ngcontent-ng-c1093903176]:hover {
+  background-color: #fafafa;
+}
+
+.accordion[_ngcontent-ng-c1093903176] {
+  border-bottom: 1px solid #dedfe2;
+}
+
+@media (max-width: 768px)
+{
+  .accordion-head[_ngcontent-ng-c1093903176] {
+    padding: 1rem .5rem;
+  }}
+
+.accordion-head[_ngcontent-ng-c1093903176] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px)
+{
+  .accordion-head[_ngcontent-ng-c1093903176] .title[_ngcontent-ng-c1093903176] {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+}
+.accordion-head[_ngcontent-ng-c1093903176] .title[_ngcontent-ng-c1093903176] {
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #202c3c;
+  margin: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.accordion-head[_ngcontent-ng-c1093903176] svg-icon[_ngcontent-ng-c1093903176] {
+  line-height: 0;
+}
+
+.accordion-head[_ngcontent-ng-c1093903176] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+}
+
+.accordion[_ngcontent-ng-c1093903176]:hover {
+  background-color: #dedfe2;
+  transition: all .25s ease-in-out;
+}
+
+
+.accordion[_ngcontent-ng-c1093903176] {
+  border-bottom: 1px solid #dedfe2;
+}

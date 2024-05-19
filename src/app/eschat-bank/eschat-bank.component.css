@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6ebf3;
+  height: 100%;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.landing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+.landing-slider {
+  position: relative;
+}
+
+.landing-picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.landing-slider-actions {
+  position: absolute;
+  left: 48px;
+  top: 48px;
+  color: #fff;
+}
+
+.landing-slider-actions-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 64px;
+}
+
+.landing-slider-actions-subtitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 32px;
+  margin: 0 0 2rem;
+}
+
+.btn-primary:hover {
+  background-color: #2528b1;
+}
+
+.btn {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  transition: .2s;
+  font-size: 16px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: #3d40c6;
+  color: #fff;
+}
+
+button:active {
+  border-style: inset;
+}
+
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 1px;
+}
+
+@media (max-width: 1200px) {
+  .landing-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .btn-primary, .btn-stroked {
+    width: auto;
+  }
+
+  .landing-slider-actions-connect {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html, body {
+    font-size: 14px;
+  }
+
+  .landing-slider-actions {
+    left: 24px;
+    top: 24px;
+  }
+
+  .landing-slider-actions-title {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .landing-slider-actions-subtitle {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .landing-slider-actions-connect {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 539px) {
+  html, body {
+    font-size: 14px;
+  }
+
+  .landing-slider-actions {
+    left: 16px;
+    top: 16px;
+  }
+
+  .landing-slider-actions-title {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+
+  .landing-slider-actions-subtitle {
+    font-size: 0.875rem;
+    line-height: 20px;
+  }
+
+  .landing-slider-actions-connect {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .landing-picture img {
+    width: 100%;
+    height: auto;
+  }
+}

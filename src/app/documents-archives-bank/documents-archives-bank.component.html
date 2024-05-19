@@ -1,1 +1,195 @@
-<p>documents-archives-bank works!</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>documents</title>
+  <style>
+    /* Стили для плавного раскрытия */
+    .box-links {
+      transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+      overflow: hidden;
+    }
+
+    .box-links.collapsed {
+      max-height: 0;
+      padding: 0;
+    }
+
+    .box-links.expanded {
+      max-height: 500px; /* Максимальная высота для раскрытого состояния */
+      padding: 1rem 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: "Source Sans 3", sans-serif;
+    }
+
+    div {
+      display: block;
+      unicode-bidi: isolate;
+    }
+
+    @media (max-width: 767.98px){
+      html, body {
+        font-size: 14px;
+      }
+    }
+
+    .box-links-item[_ngcontent-ng-c4280462037] {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid #dedfe2;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .w-100 {
+      width: 100%;
+    }
+
+    .box-archive-title[_ngcontent-ng-c4280462037] {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      color: #57616e;
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 32px;
+      cursor: pointer;
+      margin-top: 3rem;
+      margin-bottom: 0rem;
+    }
+
+    h4 {
+      display: block;
+      margin-block-start: 1.33em;
+      margin-block-end: 1.33em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      unicode-bidi: isolate;
+    }
+
+    .box-links-item[_ngcontent-ng-c4280462037] {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid #dedfe2;
+    }
+
+    .box-links-item-title[_ngcontent-ng-c4280462037] {
+      font-weight: 500;
+      color: #000c;
+    }
+
+    .box-links-item-date[_ngcontent-ng-c4280462037] {
+      color: #707884;
+      font-size: 1rem;
+    }
+
+    .box-links-item-title[_ngcontent-ng-c4280462037] {
+      font-weight: 500;
+      color: #000c;
+    }
+
+    .gap-1 {
+      gap: .25rem;
+    }
+
+    .d-flex-col {
+      display: flex;
+      flex-direction: column;
+    }
+
+    script {
+      display: none;
+    }
+
+
+  </style>
+</head>
+<body>
+<section _ngcontent-ng-c486779217="" id="documents" class="landing-container landing-documents ng-tns-c486779217-0">
+  <h2 _ngcontent-ng-c486779217="" class="landing-title ng-tns-c486779217-0">Документы</h2>
+  <div _ngcontent-ng-c486779217="" class="landing-documents-items ng-tns-c486779217-0">
+    <eb-documents _ngcontent-ng-c486779217="" class="ng-tns-c486779217-0 ng-tns-c4280462037-1 ng-star-inserted" _nghost-ng-c4280462037="" style="">
+      <div _ngcontent-ng-c4280462037="" class="box ng-tns-c4280462037-1">
+        <div _ngcontent-ng-c4280462037="" class="box-links ng-tns-c4280462037-1">
+          <a _ngcontent-ng-c4280462037="" target="_blank" class="box-links-item ng-tns-c4280462037-1 ng-star-inserted" href="https://business.eskhata.com:1451/Resources/General/Shartnomai_khismatrasoni_fosilavi_bonki_Ofertai_ommavi(02).pdf" style="">
+            <img _ngcontent-ng-c4280462037="" alt="" width="24" height="24" class="ng-tns-c4280462037-1" loading="lazy" fetchpriority="auto" ng-img="true" src="assets/icons/shared/pdf.svg">
+            <div _ngcontent-ng-c4280462037="" class="d-flex-col gap-1 ng-tns-c4280462037-1">
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-title ng-tns-c4280462037-1">Публичная оферта Эсхата Бизнес.pdf</span>
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-date ng-tns-c4280462037-1">Действует с 16.09.2023</span>
+            </div>
+          </a>
+          <a _ngcontent-ng-c4280462037="" target="_blank" class="box-links-item ng-tns-c4280462037-1 ng-star-inserted" href="https://business.eskhata.com:1451/Resources/General/Salary_project_agreement(Public_offer)09072023.pdf" style="">
+            <img _ngcontent-ng-c4280462037="" alt="" width="24" height="24" class="ng-tns-c4280462037-1" loading="lazy" fetchpriority="auto" ng-img="true" src="assets/icons/shared/pdf.svg">
+            <div _ngcontent-ng-c4280462037="" class="d-flex-col gap-1 ng-tns-c4280462037-1">
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-title ng-tns-c4280462037-1">Договор зарплатного проекта.pdf</span>
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-date ng-tns-c4280462037-1">Действует с 10.09.2023</span>
+            </div>
+          </a>
+          <a _ngcontent-ng-c4280462037="" target="_blank" class="box-links-item ng-tns-c4280462037-1 ng-star-inserted" href="https://business.eskhata.com:1451/Resources/General/tariff-rates-ru-20.01.2021.pdf" style="">
+            <img _ngcontent-ng-c4280462037="" alt="" width="24" height="24" class="ng-tns-c4280462037-1" loading="lazy" fetchpriority="auto" ng-img="true" src="assets/icons/shared/pdf.svg">
+            <div _ngcontent-ng-c4280462037="" class="d-flex-col gap-1 ng-tns-c4280462037-1">
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-title ng-tns-c4280462037-1">Тарифы.pdf</span>
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-date ng-tns-c4280462037-1">Действует с 20.01.2024</span>
+            </div>
+          </a>
+          <a _ngcontent-ng-c4280462037="" target="_blank" class="box-links-item ng-tns-c4280462037-1 ng-star-inserted" href="https://eskhata.com/for_entities/business/files/%D0%90%D1%80%D0%B8%D0%B7%D0%B0-%D0%B4%D0%B0%D1%80%D1%85%D0%BE%D1%81%D1%82%20%D0%AD%D1%81%D1%85%D0%B0%D1%82%D0%B0%20%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81.pdf" style="">
+            <img _ngcontent-ng-c4280462037="" alt="" width="24" height="24" class="ng-tns-c4280462037-1" loading="lazy" fetchpriority="auto" ng-img="true" src="assets/icons/shared/pdf.svg">
+            <div _ngcontent-ng-c4280462037="" class="d-flex-col gap-1 ng-tns-c4280462037-1">
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-title ng-tns-c4280462037-1">Ариза-дархост Эсхата Бизнес.pdf</span>
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-date ng-tns-c4280462037-1">Действует с 25.04.2023</span>
+            </div>
+          </a>
+        </div>
+        <div _ngcontent-ng-c4280462037="" class="box-archive-title ng-tns-c4280462037-1" onclick="toggleArchive()"> <h4 _ngcontent-ng-c4280462037="" class="ng-tns-c4280462037-1">Архивные</h4>
+        </div>
+        <div id="archive-box" class="box-links collapsed ng-tns-c4280462037-1">
+          <a _ngcontent-ng-c4280462037="" target="_blank" class="box-links-item ng-tns-c4280462037-1 ng-star-inserted" href="https://eskhata.com/for_entities/business/files/Корпоративная%20карта_публичная%20оферта.pdf" style="">
+            <img _ngcontent-ng-c4280462037="" alt="" width="24" height="24" class="ng-tns-c4280462037-1" loading="lazy" fetchpriority="auto" ng-img="true" src="assets/icons/shared/pdf.svg">
+            <div _ngcontent-ng-c4280462037="" class="d-flex-col gap-1 ng-tns-c4280462037-1">
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-title ng-tns-c4280462037-1">Корпоративная карта - Публичная оферта.pdf</span>
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-date ng-tns-c4280462037-1">Действует с 03.02.2023</span>
+            </div>
+          </a>
+          <a _ngcontent-ng-c4280462037="" target="_blank" class="box-links-item ng-tns-c4280462037-1 ng-star-inserted" href="https://eskhata.com/for_entities/business/files/Интернет%20Банк%20%20договор_оферта.pdf" style="">
+            <img _ngcontent-ng-c4280462037="" alt="" width="24" height="24" class="ng-tns-c4280462037-1" loading="lazy" fetchpriority="auto" ng-img="true" src="assets/icons/shared/pdf.svg">
+            <div _ngcontent-ng-c4280462037="" class="d-flex-col gap-1 ng-tns-c4280462037-1">
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-title ng-tns-c4280462037-1">Интернет Банк - договор оферта.pdf</span>
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-date ng-tns-c4280462037-1">Действует с 11.03.2023</span>
+            </div>
+          </a>
+          <a _ngcontent-ng-c4280462037="" target="_blank" class="box-links-item ng-tns-c4280462037-1 ng-star-inserted" href="https://eskhata.com/for_entities/business/files/ДБО%20для%20юр.лиц_оферта.pdf" style="">
+            <img _ngcontent-ng-c4280462037="" alt="" width="24" height="24" class="ng-tns-c4280462037-1" loading="lazy" fetchpriority="auto" ng-img="true" src="assets/icons/shared/pdf.svg">
+            <div _ngcontent-ng-c4280462037="" class="d-flex-col gap-1 ng-tns-c4280462037-1">
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-title ng-tns-c4280462037-1">ДБО для юр.лиц - оферта.pdf</span>
+              <span _ngcontent-ng-c4280462037="" class="box-links-item-date ng-tns-c4280462037-1">Действует с 20.05.2023</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </eb-documents>
+  </div>
+</section>
+
+<script>
+  function toggleArchive() {
+    const archiveBox = document.getElementById('archive-box');
+    if (archiveBox.classList.contains('collapsed')) {
+      archiveBox.classList.remove('collapsed');
+      archiveBox.classList.add('expanded');
+    } else {
+      archiveBox.classList.remove('expanded');
+      archiveBox.classList.add('collapsed');
+    }
+  }
+</script>
+</body>
+</html>
