@@ -226,3 +226,7 @@ p {
 .accordion[_ngcontent-ng-c1093903176] {
   border-bottom: 1px solid #dedfe2;
 }
+
+body {
+  background: #FAFAFA;
+}

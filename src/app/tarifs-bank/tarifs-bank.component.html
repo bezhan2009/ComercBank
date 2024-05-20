@@ -5,6 +5,8 @@
     <style type="text/css">
         html, body {
             overflow: visible;
+          margin: 0;
+          padding: 0;
         }
     </style>
 </head>
@@ -26,11 +28,35 @@
         	border-radius: 13px;
         	background: #fff
         }
+
+        @media (max-width: 1200px)
+        {
+        .landing-container[_ngcontent-ng-c486779217][_ngcontent-ng-c604556630] {
+          max-width: 100%;
+          padding: 0 1.5rem;
+        }
+
+        }
+
+        .landing-container[_ngcontent-ng-c486779217][_ngcontent-ng-c604556630] {
+          max-width: 1200px;
+          margin: 0 auto 6rem;
+        }
+        *[_ngcontent-ng-c604556630] {
+          box-sizing: border-box;
+          font-family: "Source Sans 3", sans-serif;
+        }
+
+        section {
+          display: block;
+          unicode-bidi: isolate;
+        }
     </style>
 </head>
 <body>
     <section _ngcontent-ng-c486779217="" id="rates" class="landing-container landing-rates ng-tns-c486779217-0">
-        <h2 _ngcontent-ng-c486779217="" class="landing-title ng-tns-c486779217-0">Тарифы</h2>
+      <br>
+      <div style="width: 100%;height: auto;background: #fff;border-radius: 10px;box-shadow: 0 40px 96px -4px #2e11921f;" align="center"><h2 _ngcontent-ng-c486779217="" class="landing-title ng-tns-c486779217-0">Тарифы</h2></div>
         <div class="main_tarifs_blocks">
 	        <!-- Базовые -->
 	        <div _ngcontent-ng-c4079157373="" class="rates-content ng-tns-c1146850450-3">
@@ -164,5 +190,6 @@
 	        </div>
 		</div>
     </section>
+<br>
 </body>
 </html>
